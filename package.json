@@ -16,7 +16,8 @@
     "test:unit:watch": "jest --watchAll",
     "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "codegen": "graphql-codegen --config codegen.yml"
   },
   "lint-staged": {
     "src/**/*": [
@@ -37,6 +38,10 @@
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
+    "@graphql-codegen/add": "^3.1.1",
+    "@graphql-codegen/cli": "2.6.2",
+    "@graphql-codegen/typescript": "2.4.8",
+    "@graphql-codegen/typescript-operations": "2.3.5",
     "@storybook/addon-actions": "^6.4.17",
     "@storybook/addon-essentials": "^6.4.17",
     "@storybook/addon-links": "^6.4.17",
