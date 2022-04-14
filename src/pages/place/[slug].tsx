@@ -9,11 +9,12 @@ import {
 } from 'graphQL/genereted/graphql'
 
 import PlacesTemplate, { PlaceTemplateProps } from 'templates/Places'
+import Loading from 'components/Loading'
 
 export default function Place({ place }: PlaceTemplateProps) {
   const router = useRouter()
 
-  if (router.isFallback) return null
+  if (router.isFallback) return <Loading />
 
   return <PlacesTemplate place={place} />
 }

@@ -7,6 +7,7 @@ import { CloseOutline } from '@styled-icons/evaicons-outline'
 
 import LinkWrapper from 'components/LinkWrapper'
 import * as S from './styles'
+import Loading from 'components/Loading'
 
 type ImageProps = {
   url: string
@@ -29,7 +30,7 @@ export type PlaceTemplateProps = {
 export default function PlacesTemplate({ place }: PlaceTemplateProps) {
   const router = useRouter()
 
-  if (router.isFallback) return null
+  if (router.isFallback) return <Loading />
 
   return (
     <>

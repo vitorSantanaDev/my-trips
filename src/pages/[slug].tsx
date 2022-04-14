@@ -9,11 +9,13 @@ import { GET_PAGES, GET_PAGE_BY_SLUG } from 'graphQL/queries'
 import client from 'graphQL/client'
 
 import PageTemplate, { PageTemplateProps } from 'templates/Pages'
+import Loading from 'components/Loading'
 
 export default function Page({ heading, body }: PageTemplateProps) {
   const router = useRouter()
 
-  if (router.isFallback) return null
+  if (router.isFallback) return <Loading />
+
   return <PageTemplate heading={heading} body={body} />
 }
 
