@@ -60,6 +60,7 @@ export const GET_PLACE_BY_SLUG = gql/* GraphQL */ `
       }
       description {
         html
+        text
       }
       gallery {
         url
