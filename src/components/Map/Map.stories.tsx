@@ -9,8 +9,4 @@ export default {
   args: {}
 } as ComponentMeta<typeof Map>
 
-export const Basic: ComponentStory<typeof Map> = (args) => <Map {...args} />
-
-Basic.args = {}
-
 export const Default: ComponentStory<typeof Map> = (args) => <Map {...args} />
