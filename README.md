@@ -30,6 +30,7 @@
 O My Trips foi desenvolvido no intuito de praticar a criação de aplicações em Next.JS. Explorando algumas das suas pricipais funcionalidades como SSG e ISR, fazer requisições ao servidor utilizando a linguagem de consulta de dados GraphQL, entre outras. Além de fazer deploy da aplicação na Vercel.
 
 <br>
+A idéia do projeto é mostrar os lugares que já viajei(os lugares que estão marcados no mapa, são apenas exemplos).
 Durante o desenvolvimento utilizei várias ferramentas fenômenais, para o desenvolvimento de aplicações web.
 Todo o conteúdo é gerado de forma dinâmica, vindo de um genrenciador de conteúdo.
 
