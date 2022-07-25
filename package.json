@@ -32,7 +32,7 @@
     "leaflet": "^1.7.1",
     "next": "12.0.9",
     "next-pwa": "^5.4.4",
-    "next-seo": "^5.4.0",
+    "next-seo": "^5.5.0",
     "nextjs-progressbar": "^0.0.14",
     "react": "17.0.2",
     "react-dom": "17.0.2",
